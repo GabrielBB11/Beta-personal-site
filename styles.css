@@ -1,0 +1,104 @@
+body {
+  background-color: #dcdcdd;
+  padding: 0;
+  margin:0;
+}
+
+.nume {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: 'Noto Sans', sans-serif;
+  color: #1985a1;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  width:100%;
+}
+
+.nume-div {
+  width:100%;
+  height:1000px;
+  position:relative;
+  margin-bottom:268px;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: #94B3FD;
+  transition: all 0.3s ease;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px; /* Grosimea liniei subliniate */
+  bottom: 0;
+  left: 0;
+  background-color: #B983FF; /* Culoarea liniei subliniate */
+  transition: width 0.3s ease;
+}
+
+a:hover::before {
+  width: 100%; /* Lățimea liniei subliniate atunci când se trece cu mouse-ul peste link */
+}
+
+a:hover {
+  color: #B983FF;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size:30px;
+  text-indent: 100px;
+  color:#94B3FD;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.descriere-personala {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size:50px;
+  color: #94B3FD;
+}
+
+hr {
+  border-color: #B983FF;
+  width:100%;
+}
+
+.diplome {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size:50px;
+  color:#99FEFF;
+}
+
+.competente {
+  background-color:#B983FF;
+}
+
+li, h3 {
+  font-family: 'Noto Sans', sans-serif;
+  margin-left:10px;
+  color:#94DAFF;
+  font-size:30px;
+}
+
+footer {
+  text-align: right;
+  margin-right: 10px;
+  background-color: #dcdcdd;
+  font-family: 'Noto Sans', sans-serif;
+  font-size:40px;
+}
+
+.line {
+  color:#94B3FD;
+}
